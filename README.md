@@ -16,7 +16,7 @@ const eachAsync = require('series-async-each');
 const sleep = require('some-promised-sleep');
 
 await eachAsync(['a', 'b', 'c'], async (a, i, arr) => {
-  sleep(2);
+  await sleep(2);
   console.log(a, i, arr);
 });
 ```
