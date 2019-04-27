@@ -1,6 +1,6 @@
 const eachAsync = async (arr, func) => {
   if (Array.isArray(arr)) {
-    for (let i = 0; i < arr.length; i++) {
+    for (let i in arr) {
       await func(arr[i], i, arr);
     }
   } else {
