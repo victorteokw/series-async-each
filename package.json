@@ -1,8 +1,12 @@
 {
   "name": "series-async-each",
-  "version": "2.0.0",
-  "description": "Async each in series",
+  "version": "2.0.1",
+  "description": "Async each in series.",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
